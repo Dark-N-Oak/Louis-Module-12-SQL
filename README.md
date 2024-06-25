@@ -39,3 +39,4 @@ Lastly, I made sure to leave the code well documented and free of errors.
 ## Screenshot
 ![Screenshot 2024-06-24 191651](https://github.com/Dark-N-Oak/Louis-Module-12-SQL/assets/163933013/c81fa3ac-69b8-4dc4-b25f-54f41e427b40)
 ## Video
+https://drive.google.com/file/d/1r5c-xf_Jk9TtGajEakFfPux9pKsVJNOh/view?usp=drive_link
