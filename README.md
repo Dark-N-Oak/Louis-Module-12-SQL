@@ -28,7 +28,7 @@ Lastly, I made sure to leave the code well documented and free of errors.
 * Then open a terminal in vscode.
 * Enter into the terminal "psql -U postgres", and enter your password to connect to the sever.
 * Then in the node terminal enter in "CREATE DATABASE employee_tracker_db;", this creates a database in pgadmin4.
-* Enter into the node terminal "CREATE USER your_username WITH PASSWORD "your_password";".
+* Enter into the node terminal "CREATE USER your_username WITH PASSWORD 'your_password';".
 * Then enter in "GRANT ALL PRIVILEGES ON DATABASE employee_tracker_db TO your_username;" and login into pgadmin4 to make sure it worked.
 * If didn't work you can go to pgadmin4 and manually turn on the privages in the user profile you created.
 * Then in bash terminal enter in "psql -U your_username -d employee_tracker_db -f schema.sql" and "psql -U your_username -d employee_tracker_db -f seeds.sql".
