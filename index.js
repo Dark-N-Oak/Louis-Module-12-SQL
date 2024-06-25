@@ -14,7 +14,7 @@ var employee_tracker = function () {
         type: 'list',
         name: 'prompt',
         message: 'What would you like to do?',
-        choices: ['View All Department', 'View All Roles', 'View All Employees', 'Add A Department', 'Add A Role', 'Add An Employee', 'Update An Employee Role', 'Log Out']
+        choices: ['View All Department', 'View All Roles', 'View All Employees', 'Add A Department', 'Add A Role', 'Add An Employee', 'Update An Employee Role', 'Quit']
     }]).then((answers) => {
         switch (answers.prompt) {
             case 'View All Department':
@@ -211,7 +211,7 @@ var employee_tracker = function () {
                     });
                 });
                 break;
-            case 'Log Out':
+            case 'Quit':
                 db.end();
                 console.log("Good-Bye!");
                 break;
